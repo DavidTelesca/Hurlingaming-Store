@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hurlingaming</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body class="imagenfondo">
+
+  <nav class="navbar navbar-expand-lg navbar-dark color text-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">HURLINGAMING</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="" target="_self">Conocenos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Tienda
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="">Placas de Video</a></li>
+              <li><a class="dropdown-item" href="">Microprocesadores</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="">Memorias Ram</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="" target="_self">Sucursales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="">Hot sale</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="">Contacto</a>
+          </li>
+        </ul> 
+      </div>
+    </div>
+  </nav>
+
+
+
+    <img src="./img/fondogamer.jpg" class="img-fluid" alt="bannermenu">
+    <h1 class="text-center text-light">Bienvenidos a la tienda de Hurlingaming</h1>
+    <hr>
+    <div id="contenedorProductos" class="row"></div>
+
+    <hr>
+    <h2 class= "text-light">Carrito de Compras</h2>
+    <h3 class= "text-light">El total de su compra es de <span id="total"></span></h3>
+    <button class="btn colorBoton" id="verCarrito">Ver Carrito</button>
+    <button class="btn colorBoton" id="vaciarCarrito">Vaciar Carrito</button>
+
+    <div id="contenedorCarrito" class="row"></div>
+
+
+    <footer>   
+        <div class="container-fluid">
+            <div class="row p-5 pb-2 bg-dark text-white text-start">
+    
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h3 mb-4">Hurlingaming</p>
+                    <p class="text-secondary">Tu rincon gaming preferido</p>
+                </div>    
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 mb-4">Componentes</p>
+                <div class="mb-3">    
+                  <a class="text-secondary text-decoration-none" href="">Placas de video</a>
+                </div>    
+                <div class="mb-3">    
+                    <a class="text-secondary text-decoration-none" href="">Microprocesadores</a>
+                </div>    
+                <div class="mb-3">    
+                    <a class="text-secondary text-decoration-none" href="">Perifericos</a>
+                </div>    
+    
+                </div>    
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 mb-4">Sucursales</p>
+                <div class="mb-3">    
+                      <p class="text-secondary">Sucursal Palermo: Av. Santa Fe 4301, Palermo, CABA</p>
+                  </div>   
+                  <div class="mb-3">    
+                    <p class="text-secondary">Sucursal San Telmo: Defensa 1129, CABA</p>
+                  </div>   
+                  <div class="mb-3">    
+                    <p class="text-secondary">Sucursal Belgrano: Avenida Cabildo 2523, Belgrano, CABA</p>
+                  </div>  
+                </div>    
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 mb-4">Contacto</p>
+                    <div class="mb-3">    
+                      <a class="text-secondary text-decoration-none" href="https://www.instagram.com/">Instagram</a>
+                    </div>  
+                      <div class="mb-3">    
+                        <a class="text-secondary text-decoration-none" href="https://www.facebook.com/">Facebook</a>
+                    </div>
+                    <div class="mb-3">    
+                      <a class="text-secondary text-decoration-none" href="https://www.whatsapp.com/">Whatsapp</a>
+                  </div>
+    
+                </div>     
+            
+                <div class="col-xs-12 pt-3">
+                  <p class="text-white text-center">Copyright - All right reserved © 2022</p>
+                </div>
+              
+        </div>
+      </footer>  
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+
+
+</body>
+</html>
